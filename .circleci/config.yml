@@ -122,7 +122,7 @@ workflows:
                 - main
       - deploy_tmp:
           requires:
-            -build
+            - build
           filters:
             branches:
               only:
